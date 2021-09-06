@@ -10,7 +10,8 @@ const Register = () => {
         e.preventDefault();
         // console.log(process.env.REACT_APP_REGISTER_REDIRECT_URL);
         const config = {
-            url : process.env.REACT_APP_REGISTER_REDIRECT_URL,
+            // url : process.env.REACT_APP_REGISTER_REDIRECT_URL,
+            url : "http://localhost:3000/register/complete",
             handleCodeInApp : true,
         }
 
